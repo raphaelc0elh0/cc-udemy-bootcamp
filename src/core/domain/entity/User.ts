@@ -1,6 +1,6 @@
 import { BaseEntity } from "../../common/BaseEntity"
 
-interface UserProps {
+export interface UserProps {
   id?: string
   firstName: string
   lastName: string
