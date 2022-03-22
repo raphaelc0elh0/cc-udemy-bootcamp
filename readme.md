@@ -1,4 +1,4 @@
-# Hello World
+# Bootcamp Clean Code em Typescript
 
 Curso [Using Clean architecture for Node.js API](https://www.udemy.com/course/nodejs-api-with-clean-architecture/), oferecido na Udemy por [Michael Kibenko](https://www.udemy.com/user/michael-kibenko/)
 
