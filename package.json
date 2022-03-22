@@ -1,0 +1,23 @@
+{
+  "name": "cc-udemy-bootcamp",
+  "version": "1.0.0",
+  "description": "Repository for 'Using Clean architecture for Node.js API' course on Udemy by Michael Kibenko",
+  "main": "index.js",
+  "author": "Raphael Coelho",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules ./src/index.ts",
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "build": "tsc",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "nanoid": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
