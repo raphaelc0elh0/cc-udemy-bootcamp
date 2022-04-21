@@ -1,4 +1,4 @@
-import { User, UserProps } from "../../entity/User"
+import { User } from "../../entity/User"
 
 export interface IUserRepo {
   add(input: User): Promise<User | null>
