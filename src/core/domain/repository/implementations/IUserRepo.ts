@@ -5,5 +5,5 @@ export interface IUserRepo {
   update(input: User): Promise<User | null>
   delete(id: User["id"]): Promise<User | null>
   getById(id: User["id"]): Promise<User | null>
-  getAll(id: User["id"]): Promise<User[] | null>
+  getAll(): Promise<User[] | null>
 }

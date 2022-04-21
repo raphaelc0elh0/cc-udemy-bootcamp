@@ -36,7 +36,7 @@ export class InMemoryUserRepo implements IUserRepo {
     return user
   }
 
-  async getAll(id: User["id"]): Promise<User[] | null> {
+  async getAll(): Promise<User[] | null> {
     return InMemoryDB.users
   }
 }
