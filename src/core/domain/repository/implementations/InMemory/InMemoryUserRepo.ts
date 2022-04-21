@@ -24,7 +24,7 @@ export class InMemoryUserRepo implements IUserRepo {
     const index = InMemoryDB.users.findIndex((user) => user.id === id)
     const user = InMemoryDB.users[index]
     if (index >= 0) {
-      InMemoryDB.users.splice(index, 0)
+      InMemoryDB.users.splice(index, 1)
       return user
     }
     return null
